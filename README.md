@@ -1,35 +1,28 @@
-# PHP & MySQL CRUD Application
+# PHP MySQL CRUD Application
 
-A simple web-based CRUD (Create, Read, Update, Delete) application built using PHP and MySQL.  
-This project was created as a learning project to understand basic backend development and database management.
+A professional, clean, and fully functional CRUD (Create, Read, Update, Delete) system built with native PHP and MySQL.
 
-## 🚀 Features
-- Create new data
-- Read and display data from database
-- Update existing data
-- Delete data
-- Simple and clean user interface
+## 📋 Features
 
-## 🛠️ Technologies Used
-- PHP (Native)
-- MySQL
-- HTML
-- CSS
+- ✅ Create new user data
+- ✅ Read/display user list with sort by latest
+- ✅ Update existing user information
+- ✅ Delete user data with confirmation
+- ✅ Responsive & modern UI
+- ✅ MySQL database integration
 
-## 📂 Project Purpose
-This project is intended for learning purposes and academic practice to improve skills in:
-- PHP programming
-- Database management using MySQL
-- Basic web development workflow
+## 🛠️ Requirements
 
-## ▶️ How to Run
-1. Clone or download this repository
-2. Move the project to `htdocs` (XAMPP) or `www` (Laragon)
-3. Import the provided SQL file into phpMyAdmin
-4. Configure database connection in `config.php`
-5. Run the project via browser
+- PHP 7.0 or higher
+- MySQL 5.6 or higher
+- Web server (Apache/Nginx) or XAMPP/WAMP/Laragon
 
-## 👨‍💻 Author
-**Habib Musi**  
-Junior Web Developer  
-GitHub: https://github.com/Kyy74-ai
+## 🚀 Installation
+
+1. Clone this repository to your web directory
+2. Start Apache and MySQL services
+3. Import `database.sql` to phpMyAdmin or MySQL CLI
+4. Configure `config/database.php` if needed
+5. Access via `http://localhost/php-mysql-crud`
+
+## 📁 Project Structure
