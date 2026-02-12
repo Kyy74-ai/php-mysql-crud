@@ -23,10 +23,10 @@ if ($_SERVER['REQUEST_METHOD'] == 'POST') {
 ?>
 
 <form method="POST">
-    <input type="text" name="name" placeholder="Full Name" required>
-    <input type="email" name="email" placeholder="Email Address" required>
-    <button type="submit" class="btn">💾 Save Data</button>
-    <a href="read.php" class="btn" style="background: #6c757d;">↩️ Cancel</a>
+  <input type="text" name="name" placeholder="Full Name" required>
+  <input type="email" name="email" placeholder="Email Address" required>
+  <button type="submit" class="btn">💾 Save Data</button>
+  <a href="read.php" class="btn" style="background: #6c757d;">↩️ Cancel</a>
 </form>
 
 <?php include '../includes/footer.php'; ?>
